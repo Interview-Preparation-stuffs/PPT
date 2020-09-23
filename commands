@@ -1,0 +1,24 @@
+
+first run sudo -i 
+
+to go to root as a user 
+ then 
+ 
+yum install java-1.8.0-openjdk
+
+alternatives --config java
+
+yum install mysql-server
+
+chkconfig mysqld on
+
+service mysqld start
+
+mysqldadmin -u root password test1234
+
+mysqld -uroot -p
+
+
+javatechie.deployment@gmail.com
+
+
